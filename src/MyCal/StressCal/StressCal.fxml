@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="809.0" prefWidth="622.0" style="-fx-background-color: #67f4f2; -fx-border-color: #dddddd;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyCal.StressCal.StressCal">
+   <children>
+      <Text layoutX="260.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Area" wrappingWidth="46.74395751953125" />
+      <Line endX="566.0999755859375" layoutX="51.0" layoutY="332.0" startX="-48.9999885559082" />
+      <Text layoutX="461.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nm^-2" />
+      <Text layoutX="462.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="m^-2" />
+      <Text layoutX="366.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N" />
+      <TextField fx:id="TextB1" layoutX="308.0" layoutY="392.0" />
+      <TextField fx:id="TextB2" layoutX="308.0" layoutY="441.0" />
+      <TextField fx:id="AnsB" layoutX="209.0" layoutY="518.0" />
+      <Line endX="574.300048828125" layoutX="45.0" layoutY="113.0" startX="-42.0000114440918" />
+      <Line endX="570.2999877929688" layoutX="45.0" layoutY="565.0" startX="-42.0000114440918" />
+      <Text layoutX="227.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stress Calculation">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#ea0606" layoutX="220.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stress = Force/Area" wrappingWidth="182.3271484375">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="261.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stress" />
+      <Text layoutX="20.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In Mechanical Enginereeng we have to  calculate 'Stress' very often . With this calculator we can do calculation very easily.Make sure to enter correct numbers for the units." wrappingWidth="595.7866821289062" />
+      <Text layoutX="236.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Force" wrappingWidth="36.0" />
+      <Text layoutX="236.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Area" wrappingWidth="36.0" />
+      <Text layoutX="22.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Force &amp; Area of force appled" wrappingWidth="323.30084228515625">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Text>
+      <Button fx:id="equalA" layoutX="118.0" layoutY="292.0" mnemonicParsing="false" onAction="#operateButton" prefHeight="26.0" prefWidth="80.0" text="Stress =">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="451.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N" />
+      <Text layoutX="451.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="m^2" />
+      <Text layoutX="370.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nm^-2" />
+      <TextField fx:id="TextA1" layoutX="296.0" layoutY="158.0" />
+      <TextField fx:id="TextA2" layoutX="296.0" layoutY="204.0" />
+      <TextField fx:id="AnsA" layoutX="210.0" layoutY="295.0" />
+      <Text layoutX="273.0" layoutY="701.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Force" wrappingWidth="46.74395751953125" />
+      <Text layoutX="472.0" layoutY="701.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N" />
+      <Text layoutX="472.0" layoutY="646.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nm^-2" />
+      <Text layoutX="367.0" layoutY="771.0" strokeType="OUTSIDE" strokeWidth="0.0" text="m^-2" />
+      <TextField fx:id="TextC1" layoutX="318.0" layoutY="684.0" />
+      <TextField fx:id="TextC2" layoutX="318.0" layoutY="629.0" />
+      <TextField fx:id="AnsC" layoutX="209.0" layoutY="753.0" />
+      <Text layoutX="273.0" layoutY="646.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stress" />
+      <Button fx:id="equalA1" layoutX="118.0" layoutY="515.0" mnemonicParsing="false" onAction="#operateButton" prefHeight="26.0" prefWidth="80.0" text="Force =">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="22.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Stress &amp; Area of force appled" wrappingWidth="323.30084228515625">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="617.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Stress &amp; Force" wrappingWidth="323.30084228515625">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="equalA11" layoutX="118.0" layoutY="750.0" mnemonicParsing="false" onAction="#operateButton" prefHeight="26.0" prefWidth="80.0" text="Area =">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Text fill="RED" layoutX="383.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Use keyboard inputs and press button...)" />
+      <Text fill="RED" layoutX="383.0" layoutY="616.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Use keyboard inputs and press button...)" />
+      <Text fill="RED" layoutX="383.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Use keyboard inputs and press button...)" />
+   </children>
+</AnchorPane>

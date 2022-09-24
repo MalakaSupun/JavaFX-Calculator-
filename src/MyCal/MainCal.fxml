@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="333.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyCal.Controller">
+   <children>
+      <GridPane layoutY="223.0" prefHeight="337.0" prefWidth="330.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #56b6fa; -fx-border-color: #1ec8ea;" text="=" textFill="#048697" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="259.0" layoutY="292.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="+" textFill="#048697" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.rowSpan="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="259.0" layoutY="236.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="x" textFill="#048697" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="/" textFill="#048697" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="1/x" textFill="#048697" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="259.0" layoutY="123.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="-" textFill="#048697" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="259.0" layoutY="236.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="^3" textFill="#048697" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="176.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="Sqr" textFill="#048697" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="259.0" layoutY="66.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="^2" textFill="#048697">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="93.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="6" textFill="#048697" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="9" textFill="#048697" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="5" textFill="#048697" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="CLEAR" textFill="#048697" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="." textFill="#048697" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="1" textFill="#048697" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="176.0" layoutY="123.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="ANS" textFill="#048697" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="0" textFill="#048697" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="3" textFill="#048697" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="2" textFill="#048697" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="93.0" layoutY="292.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" prefHeight="57.0" prefWidth="149.0" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="4" textFill="#048697" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" prefHeight="57.0" prefWidth="149.0" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="7" textFill="#048697" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operateButton" style="-fx-background-color: #84e2ec; -fx-border-color: #1ec8ea;" text="8" textFill="#048697" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <TextField fx:id="ANS" alignment="CENTER_RIGHT" layoutX="5.0" layoutY="158.0" prefHeight="32.0" prefWidth="324.0">
+         <font>
+            <Font name="Californian FB" size="24.0" />
+         </font></TextField>
+      <TextField fx:id="CAL" alignment="CENTER_RIGHT" layoutX="3.0" layoutY="32.0" prefHeight="123.0" prefWidth="327.0">
+         <font>
+            <Font size="55.0" />
+         </font></TextField>
+      <Button layoutY="-3.0" mnemonicParsing="false" onAction="#operateButton" prefHeight="34.0" prefWidth="130.0" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="Hooke's Law" />
+      <Button layoutX="130.0" layoutY="-3.0" mnemonicParsing="false" onAction="#operateButton" prefHeight="34.0" prefWidth="122.0" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="Stress Cal" />
+      <Text fontSmoothingType="LCD" layoutX="151.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MSG">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Line endX="94.39996337890625" layoutX="50.0" layoutY="212.0" startX="-49.9999885559082" />
+      <Line endX="94.39996337890625" layoutX="239.0" layoutY="212.0" startX="-49.9999885559082" />
+      <Button layoutX="252.0" layoutY="-3.0" mnemonicParsing="false" onAction="#operateButton" prefHeight="34.0" prefWidth="83.0" style="-fx-background-color: #67f4f2; -fx-border-color: #1ec8ea;" text="Help" />
+   </children>
+</AnchorPane>
