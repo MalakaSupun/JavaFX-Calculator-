@@ -18,4 +18,4 @@ These are the all the functions that are available in tha calculator application
 
 Other than that, there are 2 additional functions for calculating 'Stress' and 'HOOKES LAW'.
 
-#Help:-
+# Help:-
