@@ -16,3 +16,6 @@ These are the all the functions that are available in tha calculator application
 7. ^2 - square
 8. ^3 - cube
 
+Other than that, there are 2 additional functions for calculating 'Stress' and 'HOOKES LAW'.
+
+#Help:-
