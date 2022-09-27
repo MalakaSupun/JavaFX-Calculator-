@@ -24,7 +24,7 @@ Other than that, there are 2 additional functions for calculating 'Stress' and '
 ![3](https://user-images.githubusercontent.com/71941117/192359390-f500853e-c766-48d2-8f58-bbf49bb23a6e.jpg)
 
 ## Help:-
-In this page you can get all the information and functionality of the Calculator. You can get farther information fron this.
+In this page you can get all the information and functionality of the Calculator. In tis page you can find all father explainings.
 
 ![Screenshot 2022-09-27 001940](https://user-images.githubusercontent.com/71941117/192356967-c80ecf1b-8a84-48fe-bed6-387ab02f9fb3.jpg)
 
