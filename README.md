@@ -1,4 +1,5 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/MalakaSupun/JavaFX-Calculator-?logo=GitHub&style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/MalakaSupun/JavaFX-Calculator-?logo=GitHub&style=for-the-badge)
 # JavaFX Calculator
 
 This is a project that I have done for my studies using JavaFX... </br>
