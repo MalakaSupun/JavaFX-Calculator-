@@ -1,11 +1,19 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/MalakaSupun/JavaFX-Calculator-?logo=GitHub&style=for-the-badge)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/MalakaSupun/JavaFX-Calculator-?logo=GitHub&style=for-the-badge)
-# JavaFX Calculator
 
+<p align="center">
+    <img width="200" src="https://user-images.githubusercontent.com/71941117/193908037-92414a12-9276-4172-85e9-ce6b33b6940b.png" alt="Java FX Calculator">
+</p>
+
+<h1 align="center">
+ JavaFX Calculator
+</h1>
+
+<p align="center">
 This is a project that I have done for my studies using JavaFX... </br>
 This Calculator has all the basic functions that available in real-time calculator.</br>
-**_You can find all the necessary information and steps in Help tab._**
-
+<b><i>You can find all the necessary information and steps in Help tab.</i></b>
+</p>
 
 ![1](https://user-images.githubusercontent.com/71941117/192038018-f37e8d81-e3c7-4172-8c1c-cef6b6d5301d.jpg)
 
@@ -31,4 +39,8 @@ Other than that, there are 2 additional functions for calculating 'Stress' and '
 In this page you can get all the information and functionality of the Calculator. In tis page you can find all father explainings.
 
 ![Screenshot 2022-09-27 001940](https://user-images.githubusercontent.com/71941117/192356967-c80ecf1b-8a84-48fe-bed6-387ab02f9fb3.jpg)
+
+## Thanks :
+* Two icons used in this project are from internet.
+* Thanks to all the people who help with this project.
 
