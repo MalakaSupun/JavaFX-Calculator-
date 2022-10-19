@@ -32,9 +32,12 @@ These are the all the functions that are available in tha calculator application
 
 Other than that, there are 2 additional functions for calculating 'Stress' and 'HOOKES LAW'.
 #### HOOKES LAW Calculator:
+Using this page you can solve Hooke's Law problems ........................
+
 ![2](https://user-images.githubusercontent.com/71941117/192359375-bc6fc008-1437-4b84-9ca3-594f80f8d2c3.jpg)
 
 #### Stress Calculator:
+Using this page you can solve Stress calculation problems ........................
 ![3](https://user-images.githubusercontent.com/71941117/192359390-f500853e-c766-48d2-8f58-bbf49bb23a6e.jpg)
 
 ## Help:
