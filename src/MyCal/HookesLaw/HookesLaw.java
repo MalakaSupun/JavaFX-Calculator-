@@ -1,3 +1,5 @@
+
+// This is for the operations for 'Hookes Law' ..................
 package MyCal.HookesLaw;
 
 import javafx.event.ActionEvent;
@@ -8,6 +10,7 @@ import javafx.scene.control.TextField;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+// This is the main calss for the page .....
 public class HookesLaw {
 
     //initialize all the text fields and buttons....
