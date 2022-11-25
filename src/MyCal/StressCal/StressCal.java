@@ -1,3 +1,4 @@
+// This is for calculations of stress equation..........
 package MyCal.StressCal;
 
 import javafx.event.ActionEvent;
@@ -7,7 +8,7 @@ import javafx.scene.control.TextField;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-
+// Main class .....
 public class StressCal {
 
     //initialize all the text fields and buttons....
