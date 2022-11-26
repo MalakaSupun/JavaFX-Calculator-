@@ -1,5 +1,6 @@
+// This is the main code .......
 package MyCal;
-
+// JavaFX packages .......
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
