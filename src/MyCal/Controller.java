@@ -2,7 +2,7 @@
 package MyCal;
 
 
-
+// Importing JavaFX packages ..........
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -12,16 +12,17 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-
+// Importing Maths package for cal .........
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
+//
 import java.net.URL;
 import java.util.ResourceBundle;
 
 
 
-
+// Main class for calculations  ............
 public final class Controller implements Initializable {
 
 
