@@ -1,3 +1,5 @@
+// This is the class for halp page ...
+
 package MyCal.Help;
 
 public class HelpController {
