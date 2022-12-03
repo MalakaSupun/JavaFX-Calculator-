@@ -22,14 +22,15 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
        try {
-
+           // Loading main GUI ........
            Parent root = FXMLLoader.load(getClass().getResource("MainCal.fxml"));
-           primaryStage.setTitle("The..M..CALCULATOR");
+           primaryStage.setTitle("The..M..CALCULATOR");         // Name of the cal ....
            primaryStage.setScene(new Scene(root, 333, 559));
            primaryStage.setResizable(false);
            Image icon = new Image(getClass().getResourceAsStream("icon/Calculator.png"));
            primaryStage.getIcons().add(icon);
-
+           
+           // Setting window Transparent.......
            primaryStage.setOpacity(0.9);
            primaryStage.show();
        }catch (Exception e){
