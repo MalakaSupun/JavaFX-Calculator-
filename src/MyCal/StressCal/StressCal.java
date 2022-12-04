@@ -56,8 +56,8 @@ public class StressCal {
         //Getting force....
         else if (buttonText.equals("Force =")){
 
-            num1= BigDecimal.valueOf(Double.parseDouble(TextB1.getText()));
-            num2= BigDecimal.valueOf(Double.parseDouble(TextB2.getText()));
+            num1= BigDecimal.valueOf(Double.parseDouble(TextB1.getText()));  // first number ....
+            num2= BigDecimal.valueOf(Double.parseDouble(TextB2.getText()));  // second number ....
 
             BigDecimal ans1= num1.multiply(num2);
             AnsB.setText(String.valueOf(ans1));
