@@ -66,8 +66,8 @@ public class StressCal {
         //Getting area.....
         else if (buttonText.equals("Area =")){
 
-            num1= BigDecimal.valueOf(Double.parseDouble(TextC1.getText()));
-            num2= BigDecimal.valueOf(Double.parseDouble(TextC2.getText()));
+            num1= BigDecimal.valueOf(Double.parseDouble(TextC1.getText()));  // first number ....
+            num2= BigDecimal.valueOf(Double.parseDouble(TextC2.getText()));  // second number ....
 
             BigDecimal ans1= num1.divide(num2,4, RoundingMode.HALF_UP);
             AnsC.setText(String.valueOf(ans1));
