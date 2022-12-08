@@ -35,8 +35,8 @@ public class HookesLaw {
     private TextField AnsC;
 
     // creating big decimal for division..and rounding.....
-    BigDecimal num1;
-    BigDecimal num2;
+    BigDecimal num1;  // 1sr number
+    BigDecimal num2;  //2nd number
 
 
     //giving actions to buttons..
