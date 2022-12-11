@@ -46,7 +46,7 @@ public final class Controller implements Initializable {
 
     /** calling hooke's law scene*/
     public void HookesLawController(){
-        try{
+        try{// Use try to load UI ........
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/MyCal/HookesLaw/HookesLaw.fxml"));
             Parent root = loader.load();
             Main.getHookesLaw().setScene(new Scene(root));
@@ -54,7 +54,7 @@ public final class Controller implements Initializable {
 
 
 
-        }catch (Exception ex){
+        }catch (Exception ex){  // Catching Exceptions ......
             System.out.println(ex);
         }
 
