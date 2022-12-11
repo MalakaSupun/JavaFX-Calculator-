@@ -21,6 +21,7 @@ public class Main extends Application {
     //Main GUI.......
     @Override
     public void start(Stage primaryStage) throws Exception {
+        // Use try to load UI ........
        try {
            // Loading main GUI ........
            Parent root = FXMLLoader.load(getClass().getResource("MainCal.fxml"));
@@ -30,10 +31,11 @@ public class Main extends Application {
            Image icon = new Image(getClass().getResourceAsStream("icon/Calculator.png"));
            primaryStage.getIcons().add(icon);
            
-           // Setting window Transparent.......
-           primaryStage.setOpacity(0.9);
-           primaryStage.show();
-       }catch (Exception e){
+          
+           primaryStage.setOpacity(0.9);   // Setting window Transparent.......
+           primaryStage.show();            // Show the application........
+           
+       }catch (Exception e){      // Catching Exceptions ......
            e.printStackTrace();
        }
         CreateHookesLaw();
