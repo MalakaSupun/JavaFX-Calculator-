@@ -2,6 +2,7 @@
 // Fake main is used to JavaFx UI ...... 
 public class FakeMain {
     public static void main(String[] args) {
+        // Call the true main class...
         MyCal.Main.main(args);
     }
 
