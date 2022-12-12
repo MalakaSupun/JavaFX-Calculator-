@@ -33,8 +33,8 @@ public class StressCal {
 
 
     // creating big decimal for division..and rounding.....
-    BigDecimal num1;
-    BigDecimal num2;
+    BigDecimal num1;   // First number
+    BigDecimal num2;   // Seconf number
 
 
 
