@@ -42,7 +42,7 @@ public class HookesLaw {
     //giving actions to buttons..
     public void operateButton(ActionEvent evt){
         Button button = (Button)evt.getSource();
-        String buttonText = button.getText();
+        String buttonText = button.getText();    // getting button text ...... 
 
         //Getting force....
         if (buttonText.equals("Force =")){
