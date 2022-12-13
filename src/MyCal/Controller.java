@@ -18,7 +18,8 @@ import javafx.scene.control.TextField;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
-//
+
+// Importing other important libraries......
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -46,7 +47,7 @@ public final class Controller implements Initializable {
 
     /** calling hooke's law scene*/
     public void HookesLawController(){
-        try{// Use try to load UI ........
+        try{                             // Use try to load UI ........
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/MyCal/HookesLaw/HookesLaw.fxml"));
             Parent root = loader.load();
             Main.getHookesLaw().setScene(new Scene(root));
@@ -54,8 +55,8 @@ public final class Controller implements Initializable {
 
 
 
-        }catch (Exception ex){  // Catching Exceptions ......
-            System.out.println(ex);
+        }catch (Exception ex){         // Catching Exceptions ......
+            System.out.println(ex);    // printing exception out .....
         }
 
     }
