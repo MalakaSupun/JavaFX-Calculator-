@@ -69,8 +69,8 @@ public final class Controller implements Initializable {
             Main.getStressCal().show();
 
 
-        } catch (Exception ex) {
-            System.out.println(ex);
+        } catch (Exception ex) {         // Catching Exceptions ......
+            System.out.println(ex);      // printing exception out .....
         }
     }
 
