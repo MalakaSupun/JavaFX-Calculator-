@@ -62,7 +62,7 @@ public final class Controller implements Initializable {
     }
     /** calling Stress Calculations scene*/
     public void StressController() {
-        try {
+        try {                                    // Use try to load UI ........
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/MyCal/StressCal/StressCal.fxml"));
             Parent root = loader.load();
             Main.getStressCal().setScene(new Scene(root));
