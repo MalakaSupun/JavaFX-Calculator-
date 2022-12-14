@@ -84,8 +84,8 @@ public final class Controller implements Initializable {
 
 
 
-            }catch (Exception ex){
-                System.out.println(ex);
+            }catch (Exception ex){           // Catching Exceptions ......
+                System.out.println(ex);      // printing exception out .....
             }
     }
 
