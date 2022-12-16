@@ -124,7 +124,7 @@ public final class Controller implements Initializable {
 
             }
               CAL.appendText(buttonText);
-              ANS.appendText(buttonText);
+              ANS.appendText(buttonText);    // Set text to display .......
             return;
         }
 
@@ -134,7 +134,7 @@ public final class Controller implements Initializable {
             selectOperator = buttonText;
             numberInputting =false;
             CAL.appendText(buttonText);
-            ANS.appendText(buttonText);
+            ANS.appendText(buttonText);    // Set text to display .......
             return;
 
         }
@@ -144,7 +144,7 @@ public final class Controller implements Initializable {
             MathContext mc = new MathContext(6);
             BigDecimal squareRoot= left.sqrt(mc);
             ANS.appendText(buttonText);
-            CAL.setText(squareRoot.toString());
+            CAL.setText(squareRoot.toString());    // Set text to display .......
 
 
         }
@@ -160,7 +160,7 @@ public final class Controller implements Initializable {
         if (buttonText.equals("^3")){
             String a=CAL.getText();
             double cubic =Math.pow(Double.parseDouble(a),3);
-            CAL.setText(String.valueOf(cubic));
+            CAL.setText(String.valueOf(cubic));    // Set text to display .......
             ANS.appendText(buttonText);
         }
 
@@ -177,7 +177,7 @@ public final class Controller implements Initializable {
             left=new BigDecimal(CAL.getText());
             BigDecimal byx= BigDecimal.valueOf(1).divide(left,5,RoundingMode.HALF_UP);
 
-            CAL.setText(byx.toString());
+            CAL.setText(byx.toString());    // Set text to display .......
         }
 
         //equal button...
@@ -185,7 +185,7 @@ public final class Controller implements Initializable {
             final BigDecimal right = numberInputting ? new BigDecimal(CAL.getText()):left;
 
             left = calculate(selectOperator,left,right);
-            CAL.setText(left.toString());
+            CAL.setText(left.toString());    // Set text to display .......
             ANS.appendText(buttonText);
 
             numberInputting =false;
