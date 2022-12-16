@@ -110,8 +110,8 @@ public final class Controller implements Initializable {
             }
             selectOperator = "";
             numberInputting = true;
-            CAL.setText("");
-            ANS.setText("");
+            CAL.setText("");  // Clear input text .....
+            ANS.setText("");  // Clear answer text .....
             return;
         }
 
