@@ -47,14 +47,14 @@ public class Main extends Application {
     //GUI for hooke's law...
     public void CreateHookesLaw(){
         EngStage = new Stage ();
-        EngStage.setTitle("Hooke's Law Calculations");
-        EngStage.setAlwaysOnTop(true);
+        EngStage.setTitle("Hooke's Law Calculations");                                    // Name of the titile bar ..............
+        EngStage.setAlwaysOnTop(true);                                                    // 
         EngStage.setResizable(false);
         EngStage.initModality(Modality.APPLICATION_MODAL);
 
-        EngStage.setOpacity(0.8);
-        Image icon = new Image(getClass().getResourceAsStream("icon/Calculator.png"));
-        EngStage.getIcons().add(icon);
+        EngStage.setOpacity(0.8);                                                         // Setting up opacity for the window .....
+        Image icon = new Image(getClass().getResourceAsStream("icon/Calculator.png"));    // Icon location .........................
+        EngStage.getIcons().add(icon);                                                    // Set-up the icon .......................  
 
     }
 
