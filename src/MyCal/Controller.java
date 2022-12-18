@@ -169,7 +169,7 @@ public final class Controller implements Initializable {
             String a=CAL.getText();
             insertAnswer(a.substring(1));
             ANS.appendText(buttonText);
-            CAL.clear();
+            CAL.clear();                            // Clear cal........
          return;
         }
         // 1/x button..
@@ -201,7 +201,7 @@ public final class Controller implements Initializable {
         }
         //help button..
         if (buttonText.equals("Help")){
-            HelpController();}
+            HelpController();}   // calling help method..............
     }
     // Main calculations.....
     public static BigDecimal calculate(String operator,BigDecimal left,BigDecimal right){
