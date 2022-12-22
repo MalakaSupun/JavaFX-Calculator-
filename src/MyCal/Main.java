@@ -13,9 +13,7 @@ public class Main extends Application {
 
     //Creating stages for GUIs...
     private static Stage EngStage = null;
-
     private static Stage AboutStage = null;
-
     private static Stage HelpStage = null;
 
     //Main GUI.......
