@@ -16,6 +16,8 @@ This Calculator has all the basic functions that available in real-time calculat
 <b><i>You can find all the necessary information and steps in Help tab.</i></b>
 </p>
 
+#
+
 ![1](https://user-images.githubusercontent.com/71941117/192038018-f37e8d81-e3c7-4172-8c1c-cef6b6d5301d.jpg)
 #
 
