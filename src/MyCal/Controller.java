@@ -40,7 +40,7 @@ public final class Controller implements Initializable {
 
 // initialize two text fields.......
     @FXML
-    private TextField CAL;
+    private TextField CAL;           
     @FXML
     private TextField ANS;
 
@@ -51,7 +51,7 @@ public final class Controller implements Initializable {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/MyCal/HookesLaw/HookesLaw.fxml"));
             Parent root = loader.load();
             Main.getHookesLaw().setScene(new Scene(root));
-            Main.getHookesLaw().show();
+            Main.getHookesLaw().show();  // load up the scene to the app ......
 
 
 
