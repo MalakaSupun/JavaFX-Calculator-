@@ -40,9 +40,9 @@ public final class Controller implements Initializable {
 
 // initialize two text fields.......
     @FXML
-    private TextField CAL;           
-    @FXML
-    private TextField ANS;
+    private TextField CAL;   // Text field for showing calculations.....        
+    @FXML 
+    private TextField ANS;   // Text feild for displaying answer........
 
 
     /** calling hooke's law scene*/
