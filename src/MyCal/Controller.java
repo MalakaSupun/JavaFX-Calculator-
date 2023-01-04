@@ -34,7 +34,7 @@ public final class Controller implements Initializable {
     }
 
 //initializing.....
-    private BigDecimal left;
+    private BigDecimal left;             // Big decimal class defingd.......
     private String selectOperator;
     private boolean numberInputting;
 
@@ -48,7 +48,7 @@ public final class Controller implements Initializable {
     /** calling hooke's law scene*/
     public void HookesLawController(){
         try{                             // Use try to load UI ........
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/MyCal/HookesLaw/HookesLaw.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/MyCal/HookesLaw/HookesLaw.fxml"));  // location of UI file
             Parent root = loader.load();
             Main.getHookesLaw().setScene(new Scene(root));
             Main.getHookesLaw().show();  // load up the scene to the app ......
