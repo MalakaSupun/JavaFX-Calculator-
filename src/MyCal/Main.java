@@ -61,7 +61,7 @@ public class Main extends Application {
         AboutStage = new Stage ();
         AboutStage.setTitle("Stress Calculator");
         AboutStage.setAlwaysOnTop(true);
-        AboutStage.setResizable(false);
+        AboutStage.setResizable(false);                                                     // set window size as permanent..........
         AboutStage.initModality(Modality.APPLICATION_MODAL);
 
         AboutStage.setOpacity(0.8);                                                         // Setting up opacity for the window .....
