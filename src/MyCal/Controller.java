@@ -76,7 +76,8 @@ public final class Controller implements Initializable {
 
     /** calling help scene*/
         public void HelpController(){
-            try{
+            try{                                    // Try block..
+                
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("/MyCal/Help/Help.fxml"));
                 Parent root = loader.load();
                 Main.getHelp().setScene(new Scene(root));
